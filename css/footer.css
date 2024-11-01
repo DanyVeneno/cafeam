@@ -1,0 +1,34 @@
+footer {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 200px;
+  background-color: #1e2229;
+}
+.links_redes {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10px;
+  /* border: dashed 2px whitesmoke; */
+  align-items: center;
+}
+.redes1 {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  list-style: none;
+}
+#elblog {
+  width: 25%;
+}
+
+@media screen and (max-width: 768px) {
+  .links_redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}

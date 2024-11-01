@@ -1,0 +1,201 @@
+#rewcinco {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: hsla(251.16279069767444, 23%, 35%, 1);
+  background-image: radial-gradient(
+      circle at 7% 81%,
+      hsla(251.16279069767444, 23%, 35%, 1) 16%,
+      transparent 53%
+    ),
+    radial-gradient(
+      circle at 5% 1%,
+      hsla(11.294117647058822, 85%, 60%, 1) 7%,
+      transparent 84%
+    ),
+    radial-gradient(
+      circle at 39% 52%,
+      hsla(11.294117647058822, 85%, 60%, 1) 6%,
+      transparent 68%
+    ),
+    radial-gradient(
+      circle at 90% 50%,
+      hsla(251.16279069767444, 23%, 35%, 1) 2%,
+      transparent 85%
+    ),
+    radial-gradient(
+      circle at 80% 50%,
+      hsla(31.199999999999996, 53%, 90%, 1) 2%,
+      transparent 65%
+    );
+  background-blend-mode: normal, normal, normal, normal, normal;
+}
+
+.contenedor {
+  position: relative;
+  display: grid;
+  text-align: center;
+  height: 100vh;
+  color: aliceblue;
+  gap: 30px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  grid-template-columns: 100%;
+  /* border: 2px dashed whitesmoke; */
+}
+@media screen and (min-width: 768px) {
+  .contenedor {
+    grid-template-columns: repeat(3, 1fr);
+    height: 100vh;
+  }
+}
+.uno {
+  background: url(../assets/t1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 120%;
+  background-color: #ec6242;
+  width: 80%;
+  height: 80%;
+  margin-left: 50px;
+  border-radius: 10px 10px 10px;
+  transition: transform 2s;
+  border: 7px solid #f4e8db;
+}
+.uno:hover {
+  background: url(../assets/tv1.png);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+  .uno {
+    background: url(../assets/t1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120%;
+    background-color: #ec6242;
+    width: 80%;
+    height: 80%;
+    margin-left: 50px;
+    border-radius: 10px 10px 10px;
+    transition: transform 2s;
+  }
+  .uno:hover {
+    background: url(../assets/t1h.png);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    text-align: left;
+    padding: 25px;
+  }
+}
+
+.dos {
+  background: url(../assets/j1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 120%;
+  background-color: #1e2229;
+  width: 80%;
+  height: 80%;
+  margin-left: 50px;
+  border-radius: 10px 10px 10px;
+  transition: transform 2s;
+  border: 7px solid #f4e8db;
+}
+.dos:hover {
+  background: url(../assets/j2.png);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+@media screen and (max-width: 768px) {
+  .dos {
+    background: url(../assets/j1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120%;
+    background-color: #1e2229;
+    /* border: rgb(255, 0, 179) dashed 2px; */
+    width: 80%;
+    height: 80%;
+    margin-left: 50px;
+    border-radius: 10px 10px 10px;
+    transition: transform 2s;
+  }
+
+  .dos:hover {
+    background: url(../assets/j1h.png);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-size: contain;
+    text-align: left;
+    padding: 25px;
+
+    /* transform: rotate(360deg); */
+  }
+}
+.tres {
+  background: url(../assets/k1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 120%;
+  background-color: #4e4671;
+  width: 80%;
+  height: 80%;
+  margin-left: 50px;
+  border-radius: 10px 10px 10px;
+  transition: transform 2s;
+  border: 7px solid #f4e8db;
+}
+.tres:hover {
+  background: url(../assets/k2.png);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+@media screen and (max-width: 768px) {
+  .tres {
+    background: url(../assets/k1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120%;
+    background-color: #4e4671;
+    width: 80%;
+    height: 80%;
+    margin-left: 50px;
+    border-radius: 10px 10px 10px;
+    transition: transform 2s;
+  }
+
+  .tres:hover {
+    background: url(../assets/k2h.png);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    text-align: left;
+    padding: 25px;
+  }
+}
